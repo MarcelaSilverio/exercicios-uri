@@ -22,9 +22,8 @@ if __name__ == "__main__":
 
                 carnes[carne] = int(validade)
 
-            
-            for carne in sorted(carnes, key = carnes.get):
-                
+            for carne in sorted(carnes, key=carnes.get):
+
                 resposta += carne
 
                 if loop != (quantidade-1):
@@ -38,6 +37,3 @@ if __name__ == "__main__":
         except EOFError:
 
             break
-
-
-
